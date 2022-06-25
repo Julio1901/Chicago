@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
 
     @IBOutlet weak var userNameLabel: UILabel!
+    
     private let mainViewModel = MainViewModel()
     
     override func viewDidLoad() {

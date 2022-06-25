@@ -18,8 +18,8 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .blue
-        secondLabel.text = "Test"
-        //secondLabel.text = mainViewModel.getUserName()
+        //secondLabel.text = "Test"
+        secondLabel.text = mainViewModel.getUserName()
     }
     
 

@@ -9,7 +9,7 @@ import Foundation
 
 class MainViewModel : NSObject{
     
-    private var userName : String = ""
+    private var userName : String = "VModel"
     
     
     func setUserName(_ name: String){
